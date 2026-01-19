@@ -39,6 +39,7 @@ const containerVariants = {
   },
 };
 
+
 const itemVariants = {
   hidden: { opacity: 0, y: 30, filter: 'blur(8px)' },
   visible: {
@@ -47,7 +48,8 @@ const itemVariants = {
     filter: 'blur(0px)',
     transition: {
       duration: 1.2,
-      ease: [0.16, 1, 0.3, 1],
+      // Add "as const" here to fix the type error
+      ease: [0.16, 1, 0.3, 1] as const, 
     },
   },
 };
