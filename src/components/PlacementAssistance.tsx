@@ -213,7 +213,7 @@ export default function PlacementAssistance() {
            <div className="flex flex-wrap justify-center gap-10 pt-10">
               <Link href="#" className="group relative px-16 py-8 rounded-full bg-[#5d31f0] text-white font-black text-[11px] uppercase tracking-[0.5em] overflow-hidden shadow-2xl transition-all hover:scale-110">
                  <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 transition-opacity" />
-                 <span className="relative z-10 flex items-center gap-4">Initialize Career Protocol <ArrowUpRight size={18} /></span>
+                 <span className="relative z-10 flex items-center gap-4">Talk With Us <ArrowUpRight size={18} /></span>
               </Link>
            </div>
         </div>
