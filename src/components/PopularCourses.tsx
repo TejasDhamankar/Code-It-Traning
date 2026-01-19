@@ -220,7 +220,7 @@ export default function PopularCourses() {
                  <Sparkles size={16} className="text-purple-600" />
                  <span className="text-[10px] font-black text-gray-900 uppercase tracking-[0.4em]">Section 02 / Advanced Curriculum</span>
               </div>
-              <h2 className="text-7xl lg:text-[110px] font-black text-gray-900 leading-[0.8] tracking-tighter uppercase">Focus <br /><span className="bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 bg-clip-text text-transparent animate-gradient-x">Catalog.</span></h2>
+              <h2 className="text-7xl lg:text-[110px] font-black text-gray-900 leading-[0.8] tracking-tighter uppercase">Popular <br /><span className="bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 bg-clip-text text-transparent animate-gradient-x">Courses.</span></h2>
            </div>
            <div className="flex flex-col lg:items-end text-left lg:text-right space-y-6 lg:max-w-md">
               <p className="text-xl text-gray-400 font-medium italic leading-relaxed">"Bridging the structural gap between academia and industry through architectural excellence."</p>
