@@ -44,9 +44,9 @@ const RECRUITER_NETWORK = [
 ];
 
 const METRICS = [
-  { label: 'Graduates Trained', value: '11,000+', detail: 'Global Community' },
+  { label: 'Graduates Trained', value: '500+', detail: 'Global Community' },
   { label: 'Assistance Rate', value: '100%', detail: 'Success Mandate' },
-  { label: 'Enterprise Partners', value: '500+', detail: 'Placement Hub' },
+  { label: 'Enterprise Partners', value: '100+', detail: 'Placement Hub' },
   { label: 'Industry Tenure', value: '20+', detail: 'Years of operations' },
 ];
 
@@ -113,7 +113,7 @@ export default function PlacementAssistance() {
                </motion.div>
                
                <h2 className="text-5xl lg:text-7xl font-bold text-white leading-tight tracking-tight max-w-2xl">
-                 The world’s specialized IT <br /> training engine, powering <br /> careers in over 10 countries.
+                 The world’s specialized IT <br /> training engine, powering <br /> careers in India.
                </h2>
             </div>
 
