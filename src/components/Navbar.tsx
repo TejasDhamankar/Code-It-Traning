@@ -48,7 +48,7 @@ const Navbar = () => {
         <motion.nav 
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] as const }}
           className={`
             pointer-events-auto mx-auto max-w-6xl transition-all duration-700 ease-in-out
             rounded-full border border-white/40 bg-white/60 backdrop-blur-2xl

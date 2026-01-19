@@ -192,7 +192,7 @@ export default function CourseDetailsPage({ params }: { params: Promise<{ slug: 
           {/* HOLOGRAPHIC IMAGE CONTAINER */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.8, x: 50 }} animate={{ opacity: 1, scale: 1, x: 0 }} 
-            transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] as const }}
             className="lg:col-span-5 relative aspect-[3.5/5] rounded-[6rem] overflow-hidden border-[20px] border-white shadow-[0_100px_180px_-40px_rgba(168,85,247,0.15)] group"
           >
             <Image src={course.image} alt={course.title} fill className="object-cover transition-transform duration-[5000ms] group-hover:scale-110" priority />
