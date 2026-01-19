@@ -21,10 +21,10 @@ import {
  * ============================================================================
  */
 const navLinks = [
-  { name: 'About Us', href: '#about', icon: Users },
-  { name: 'Placement', href: '#placements', icon: Trophy },
-  { name: 'Courses', href: '#courses', icon: BookOpen },
-  { name: 'Contact Us', href: '#contact', icon: PhoneCall },
+  { name: 'About Us', href: 'about', icon: Users },
+  { name: 'Placement', href: 'placements', icon: Trophy },
+  { name: 'Courses', href: 'courses', icon: BookOpen },
+  { name: 'Contact Us', href: 'contact', icon: PhoneCall },
 ];
 
 const Navbar = () => {
